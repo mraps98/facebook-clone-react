@@ -23,8 +23,8 @@ function Login() {
     return (
         <div className="login">
             <div className="login__logo">
-                <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt="" />
-                <img src="https://png2.cleanpng.com/sh/dcb81e4bdf538a133ad2519adaa2ae41/L0KzQYm3U8MxN5t5fZH0aYP2gLBuTfZia5Znh9H0LXa7PbP8kBlvbaR4RdNtdnX1hLr6if5oNZR0heJqbomwfrL0hb02aZNqeatrYkm2drO8VL44QGM6TKMAMEG4QoO7VMQ4O2I7SKg6LoDxd1==/kisspng-facebook-f8-business-advertising-company-name-5abea9bb93fb54.7825415015224447316061.png" width="350" alt="facebook txt logo transparent" />
+                <img src="./facebook-logo.png" alt="" />
+                <img src="./facebook-text.png" width="350" alt="facebook txt logo transparent" />
             </div>
             <Button onClick={signIn} type="submit">Sign in</Button>
         </div>
